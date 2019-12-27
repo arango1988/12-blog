@@ -1,0 +1,47 @@
+h1 {
+    font-size: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    /* border-bottom: 3px solid #a2a2a2; */
+    text-decoration: underline #a2a2a2;
+}
+
+.abstract {
+    border-left: 5px solid #a2a2a2;
+    padding-left: 5px;
+    font-style: italic;
+}
+.blog-body{
+    font-family: "Josefin Sans"; 
+    border: 20px solid #a2a2a2;
+    max-width: 700px;
+    margin: 20px auto;    
+    padding: 20px;
+}
+
+.date {
+    color: #42c3b7;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.post {
+    margin-top: 30px;
+}
+
+hr.style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
